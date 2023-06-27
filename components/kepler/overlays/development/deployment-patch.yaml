@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: kepler
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/vimalkum-tenant/kepler/kepler@sha256:855f3ce768708b7196f54ece3ece9294db3c00bf6daf34628aeaac0325d06096
+        name: container-image
+        resources: {}
+status: {}
