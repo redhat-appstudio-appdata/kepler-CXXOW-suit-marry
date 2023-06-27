@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: kepler-operator
     spec:
       containers:
-      - image: image
+      - image: quay.io/redhat-user-workloads/vimalkum-tenant/kepler/kepler-operator@sha256:6bf9a07bc410b9a7723977fec3c730dec2a4dd9eb4e46853d9af09d99760db2e
         imagePullPolicy: Always
         name: container-image
         ports:
