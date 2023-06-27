@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: kepler-operator
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/vimalkum-tenant/kepler/kepler-operator@sha256:6bf9a07bc410b9a7723977fec3c730dec2a4dd9eb4e46853d9af09d99760db2e
+        name: container-image
+        resources: {}
+status: {}
