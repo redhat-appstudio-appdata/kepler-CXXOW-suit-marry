@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: kepler-operator
     app.kubernetes.io/part-of: kepler
-  name: kepler-operatorft8f
+  name: kepler-operatorhc87
 spec:
   port:
     targetPort: 8081
