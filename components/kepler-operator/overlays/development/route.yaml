@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: kepler-operator
     app.kubernetes.io/part-of: kepler
-  name: kepler-operatorgobr
+  name: kepler-operatorrs3v
 spec:
   port:
     targetPort: 8081
