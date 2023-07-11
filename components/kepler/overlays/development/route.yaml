@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: kepler
     app.kubernetes.io/part-of: kepler
-  name: keplera2a8
+  name: kepler3gno
 spec:
   port:
     targetPort: 8081
